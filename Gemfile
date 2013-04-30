@@ -5,6 +5,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'activeadmin', '~> 0.5.1'
 gem 'bootstrap-sass'
+gem 'simple_form'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
