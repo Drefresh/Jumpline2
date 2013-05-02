@@ -1,0 +1,14 @@
+<div class="row">
+	<div class="span6 offset3">
+		<div class="well">
+			<p>
+			  <b>Description:</b>
+			  <%= @venue.description %>
+			</p>
+		</div>
+	</div>
+</div>
+
+
+<%= link_to 'Edit', edit_venue_path(@venue) %> |
+<%= link_to 'Back', venues_path %>
